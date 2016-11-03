@@ -7,10 +7,17 @@ header a {
   color: red;
   text-align: right;
   float: right;
+  padding: .5rem;
 }
 
 header h1 {
   padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+header h3 {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 h1 { 
@@ -38,27 +45,53 @@ article{
 }
 
 main article{
-  width: 66%;
-  float: left;
+  width: 60%;
+  text-align: left;
+  margin-left: 1em;
 }
 
 img {
-  max-width: 400px;
+  max-width: 90%;
+  overflow: hidden;
 }
 
 aside {
-  width: 33%;
+  text-align: center;
+  width: 30%;
   float: right;
-  border: 2px;
+  border: 3px solid black;
+  margin: 1em;
 }
 
-div {
-  float: left;
-  display: inline-block;
+aside a {
+  color: red;
+  text-align: right;
+}
+
+aside p {
+  text-align: left;
+  margin-left: 5px;
 }
 
 footer {
   float: left;
   width: 100%;
   text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#contact{
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  float: left;
+}
+
+#contact h2{
+  font-size: 1rem;
+}
+#contact a {
+  color: red;
 }
