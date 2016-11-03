@@ -95,3 +95,38 @@ footer {
 #contact a {
   color: red;
 }
+
+#about-aside {
+  background-color: purple;
+  float: left;
+}
+
+#about-article {
+  float: right;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: grey;
+  font-size: 2rem;
+}
+
+#rates-aside {
+  background-color: purple;
+  float: left;
+  text-align: left;
+}
+
+#rates-aside li {
+  padding: 1rem;
+}
+
+#rates-article {
+  float: right;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: grey;
+  font-size: 1.5rem;
+}
+
+iframe {
+  text-align: center;
+}
