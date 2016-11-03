@@ -1,0 +1,64 @@
+header {
+  background-color: black;
+  color: white;
+}
+
+header a {
+  color: red;
+  text-align: right;
+  float: right;
+}
+
+header h1 {
+  padding-top: 2rem;
+}
+
+h1 { 
+  padding: 0; 
+  margin: 0; 
+}
+
+nav {
+  background-color: gray;
+  padding: 1rem;
+  margin: 0;
+  width:100%;
+  margin:0 auto;
+  list-style:none;
+  text-align:center;
+}
+
+nav a {
+  color: purple;
+  padding: 0, 2rem, 0;
+}
+
+article{
+  float: left;
+}
+
+main article{
+  width: 66%;
+  float: left;
+}
+
+img {
+  max-width: 400px;
+}
+
+aside {
+  width: 33%;
+  float: right;
+  border: 2px;
+}
+
+div {
+  float: left;
+  display: inline-block;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
